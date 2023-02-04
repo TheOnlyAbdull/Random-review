@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{background: hsl(210, 36%, 96%);}
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1-cont{
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+}
+.h1-cont h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.h1-cont .underline{
+    height: 4px;
+    background: #49a6e9;
+    width: 9rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.review-cont{
+    width: 45%;
+    margin: 2rem 0;
+    padding: 2%;
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.img-cont{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-top-right-radius: 7px solid black;
+}
+#user-image {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    /* position: relative; */
+}
+p.name{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    border-top-right-radius: 7px solid black;
+}
+p.job{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    word-spacing: 4px;
+    color: #49a6e9;
+}
+p.description{
+    letter-spacing: .2px;
+    margin-bottom:1rem;
+    text-align: center;
+}
+.buttons{
+    display: block;
+    text-align: center;
+}
+.fward-btn,
+.bward-btn{
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border-color: transparent;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    color:#49a6e9; 
+    cursor: pointer;
+}
+.bward-btn{
+    margin-right: 1rem;
+}
+.fward-btn{
+    margin-left: 1rem;
+}
+.suprise-btn{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.suprise-btn button{
+    padding: 5px 1.7rem;
+    background: hsl(205, 100%, 96%);
+    border-color: #49a6e9;
+    color: #49a6e9;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+
+
+@media screen and (max-width:800px) {
+    .review-cont{
+        width: 90%;
+        overflow-x: hidden;
+    }
+}
